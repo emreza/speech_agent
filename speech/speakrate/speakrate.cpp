@@ -12,19 +12,34 @@
 #include <sphinxbase/ad.h>
 #include <math.h>
 #include <ctime>
+#include <unordered_set>
 
 using namespace std;
 
 static ps_decoder_t *ps;
 static cmd_ln_t *config;
 static FILE *rawfd;
-int num_words;
 
-int count_words(char str[256]){
+
+int count_vowels(const char* str){
+	string mylist[]={"AE","AW","AO","AH","AA","AY","IH","EY","IY","ER","OW","UW","EH","UH"};
+	string sentence(str);
 	int num = 0;
-	for(int i = 0; str[i] != '\0'; i++)
-		num++;		
-	return num/5;
+	int i = 0;
+	int j = 0;
+	string phoneme;
+	int num_vowels = 0;
+	while (str[i] != '\0'){
+		while (str[i+j] != ' ' && str[i+j] != '\0'){
+			j++;
+		}
+		phoneme = sentence.substr(i,j);
+		if (std::find(std::begin(mylist), std::end(mylist), phoneme) != std::end(mylist))
+			num_vowels++;
+		i += j+1;
+	    j=0;
+	}
+	return num_vowels;
 }
 
 
@@ -34,16 +49,16 @@ int count_words(char str[256]){
 static void
 recognize_from_file()
 {
-	int n_words; 
+	int n_vowels; 
     int16 adbuf[2048];
     const char *fname;
     const char *hyp;
     int32 k;
-	char str[256];
+	char str[1000];
     uint8 utt_started, in_speech;
   //  int32 print_times = cmd_ln_boolean_r(config, "-time");
 
-    fname = "lazlo.wav";
+    fname = "stephan.wav";
 	rawfd = fopen(fname, "rb");
   
     if (strlen(fname) > 4 && strcmp(fname + strlen(fname) - 4, ".wav") == 0) {
@@ -69,12 +84,13 @@ recognize_from_file()
 
             if (hyp != NULL){
 				strncpy_s( str, hyp, sizeof( str ) );
-				printf("%s\n", hyp);
-				n_words = count_words(str);
+				//printf("%s\n", hyp);
+				n_vowels = count_vowels(hyp);
 				double timei = time*0.0000625;
-				printf(", number of words:%d, time elapsed:%fs, speaking rate:%f",
-						n_words,timei,n_words/timei*60);
+				printf(", number of vowels:%d, time elapsed:%fs, speaking rate:%f",
+						n_vowels,timei,n_vowels/timei*60);
 				time = 0;
+				
           //  if (print_times)
         //	print_word_times();
 			}
@@ -83,14 +99,6 @@ recognize_from_file()
         }
     }
     ps_end_utt(ps);
-    if (utt_started) {
-        hyp = ps_get_hyp(ps, NULL);
-        if (hyp != NULL)
-    	    printf("%s\n", hyp);
-    //    if (print_times) {
-    //    print_word_times();
-	//}
-    }
     
     fclose(rawfd);
 }
@@ -115,7 +123,7 @@ bool recognize_from_microphone() {
 	char str[256];
 	clock_t start;
 	double time;
-	int n_words; 
+	int n_vowels; 
 	
 	while (true) {
 		time = (std::clock() - start ) / (double) CLOCKS_PER_SEC;
@@ -126,7 +134,7 @@ bool recognize_from_microphone() {
 		if (in_speech && !utt_started){ 
 			utt_started = TRUE;
 			start = std::clock();
-			num_words = 1;
+			int num_vowels = 1;
 		}
 		if (!in_speech && utt_started) {
 			// speech -> silence transition, time to start new utterance  
@@ -136,12 +144,12 @@ bool recognize_from_microphone() {
 			hyp = ps_get_hyp(ps, &score);
 			if (hyp != NULL){
 				strncpy_s( str, hyp, sizeof( str ) );	
-				n_words = count_words(str);
-				if (n_words>3){
+				n_vowels = count_vowels(str);
+				if (n_vowels>3){
 				printf(str);
 				
 				printf(", number of words:%d, time elapsed:%fs, speaking rate:%f",
-					n_words,time,n_words/time*60);
+					n_vowels,time,n_vowels/time*60);
 				}
 				else
 					printf("not enough words");
@@ -157,12 +165,15 @@ bool recognize_from_microphone() {
 	return false;
 }
 int _tmain(int argc, _TCHAR* argv[]) {
-	
+	//count_vowels("AE BBBD SD SD OU EI sdfsd PO dfdf ");
+	string path ="C:\\Users\\Reza\\Documents\\GitHub\\speech_agent\\speech\\Release\\";
 	config = cmd_ln_init(NULL, ps_args(), TRUE,
-			"-hmm", "model\\en-us\\en-us-c",
-			"-lm","model\\en-us\\en-us.lm.dmp",
+			"-hmm", "model\\en-us\\en-us",
+			//"-lm","model\\en-us\\en-us.lm.dmp",
 			"-vad_threshold","3",
 			"-dict", "model\\en-us\\cmudict-en-us2.dict",
+			"-allphone", "model\\en-us\\en-us-phone.lm.dmp",
+			"-beam", "1e-20", "-pbeam", "1e-20", "-lw", "2.0",
 			//"-logfn","model",
 			NULL);
 	if (config == NULL)
@@ -172,7 +183,7 @@ int _tmain(int argc, _TCHAR* argv[]) {
 		return false;
 	//bool out = recognize_from_microphone();
 	recognize_from_file();
-	//printf(" %d",count_words("one two three"));
+	//printf(" %d",count_vowels("one two three"));
 	ps_free(ps);
 	cmd_ln_free_r(config);
 	return 0;
