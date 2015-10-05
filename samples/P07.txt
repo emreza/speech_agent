@@ -1,0 +1,16 @@
+ tmin tmax fmean fmin fmax fstdev frange
+ soundname, nsyll, npause, dur (s), phonationtime (s), speechrate (nsyll/dur), articulation rate (nsyll / phonationtime), ASD (speakingtime/nsyll) 
+0 200
+629, 78, 200.00, 148.03, 3.15, 4.25, 0.235
+204.58 88.75 315.63 35.26 226.88
+65.49 48.05 79.15 7.42 31.10
+200 400
+656, 78, 200.00, 149.26, 3.28, 4.39, 0.228
+190.66 87.86 301.60 29.53 213.75
+65.13 48.23 80.55 6.99 32.32
+Overall stats
+ nsyll, npause, dur (s), phonationtime (s), speechrate (nsyll/dur), articulation rate (nsyll / phonationtime), ASD (speakingtime/nsyll) 
+1285,78,400.40,297.29,3.21,4.32,0.228
+190.66 87.86 315.63 33.30 227.78
+65.31 48.05 80.55 7.21 32.50
+ fmean fmin fmax fstdev frange
