@@ -1,0 +1,97 @@
+<topics>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >roman era</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >first century</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >most advanced</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "10" >galileo</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >mathematician</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >physicist</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >astronomer</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >philosopher</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >observational</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >astronomy</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >telescopic</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >phases of venus</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >four largest</text>
+<text thresh = "20" >four biggest</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >satellites of jupiter</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >sun spots</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "10" >leonardo</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >da vinci</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >biology</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >painter</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >helicopter</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >solar power</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >concentrated</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >calculator</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >enrico fermi</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >nobel prize</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >leader of the team</text>
+<text thresh = "20" >team leader</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >the first nuclear reactor</text>
+<text thresh = "20" >nuclear reactor</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >quantum theory</text>
+</keyword>
+</topic>
+</topics>

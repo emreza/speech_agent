@@ -1,0 +1,53 @@
+﻿Build started 10/13/2015 1:45:36 PM.
+     1>Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech\speech.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32" /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include" /I"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SPEECH_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\speech.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32" /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include" /I"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SPEECH_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\speech.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt speech.cpp wavfile.cpp
+         wavfile.cpp
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\wavfile.cpp(1): warning C4627: '#include <cmath>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\wavfile.cpp(2): warning C4627: '#include <fstream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\wavfile.cpp(3): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\wavfile.cpp(56): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         speech.cpp
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(4): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(5): warning C4627: '#include <map>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(6): warning C4627: '#include <sstream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(7): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(8): warning C4627: '#include <fstream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(9): warning C4627: '#include "speech.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(26): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(29): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(29): error C2086: 'int map' : redefinition
+                 c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(26) : see declaration of 'map'
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(29): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(29): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(125): error C2065: 'grammer' : undeclared identifier
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(125): error C3861: 'listenCallback': identifier not found
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(125): error C3861: 'string': identifier not found
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(146): error C2061: syntax error : identifier 'CallbackType'
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(147): error C2065: 'listenCallback' : undeclared identifier
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(147): error C2065: 'lCallback' : undeclared identifier
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(149): error C2065: 'grammer' : undeclared identifier
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(149): error C3861: 'buildGrammer': identifier not found
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(164): error C2039: 'to_string' : is not a member of 'std'
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(164): error C2228: left of '.c_str' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\reza\documents\github\speech_agent\speech\speech\speech.cpp(164): error C3861: 'to_string': identifier not found
+         Generating Code...
+     1>Done Building Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech\speech.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.58

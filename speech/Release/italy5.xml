@@ -1,0 +1,62 @@
+<topics>
+<topic>
+<keyword score = "10">
+<text thresh = "20" >world leader</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >iconic design</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >Made in Italy</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >fashion design</text>
+<text thresh = "20" >fashion labels</text>
+<text thresh = "20" >fashion magazine</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >Prada</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >versace</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >valentino</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >armani</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >Vogue Italia</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "10">
+<text thresh = "20" >trend setter</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >interior design</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >furniture</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >post modern</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >bookcase</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >nineteen eighty one</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >inspired by</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >Bob Dylan</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >Memphis Blues</text>
+</keyword>
+</topic>
+</topics>

@@ -1,0 +1,6 @@
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\nuance_demo\bin\Release\nuance_demo.exe.config
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\nuance_demo\bin\Release\nuance_demo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\nuance_demo\bin\Release\nuance_demo.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\nuance_demo\obj\Release\nuance_demo.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\nuance_demo\obj\Release\nuance_demo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\nuance_demo\obj\Release\nuance_demo.pdb

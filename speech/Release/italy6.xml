@@ -1,0 +1,61 @@
+<topics>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >Italian cuisine</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >simplicity</text>
+<text thresh = "10" >simple</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >four to eight</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >quality of the ingredients</text>
+<text thresh = "10" >ingredients</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >preparation</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >variety of pasta</text>
+<text thresh = "10" >pasta</text>
+<text thresh = "20" >shapes of pasta</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >spaghetti</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >thin rods</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >rigatoni</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >cylinders</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >lasagna</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >wine and cheese</text>
+<text thresh = "20" >cheese and wine</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >exporter</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >consumer</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >served with</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >alcoholic</text>
+</keyword>
+</topic>
+</topics>

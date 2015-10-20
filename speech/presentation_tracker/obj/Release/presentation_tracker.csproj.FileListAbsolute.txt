@@ -1,0 +1,5 @@
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker\bin\Release\presentation_tracker.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker\bin\Release\presentation_tracker.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker\obj\Release\presentation_tracker.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker\obj\Release\presentation_tracker.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker\obj\Release\presentation_tracker.pdb

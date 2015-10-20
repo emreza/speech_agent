@@ -1,0 +1,16 @@
+﻿Build started 10/13/2015 4:38:09 PM.
+     1>Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech\speech.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         speech.vcxproj -> C:\Users\Reza\Documents\GitHub\speech_agent\speech\Release\speech.dll
+       PostBuildEvent:
+         copy C:\Users\Reza\Documents\GitHub\speech_agent\speech\Release\speech.dll C:\Users\Reza\unityagent\Assets\Plugins\x86
+         :VCEnd
+         The system cannot find the path specified.
+                 0 file(s) copied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: The command "copy C:\Users\Reza\Documents\GitHub\speech_agent\speech\Release\speech.dll C:\Users\Reza\unityagent\Assets\Plugins\x86
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech\speech.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.04

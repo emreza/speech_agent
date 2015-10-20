@@ -1,0 +1,11 @@
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\bin\Release\presentation_tracker_demo.exe.config
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\bin\Release\presentation_tracker_demo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\bin\Release\presentation_tracker_demo.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\bin\Release\presentation_tracker.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\bin\Release\presentation_tracker.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\obj\Release\presentation_tracker_demo.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\obj\Release\presentation_tracker_demo.Form1.resources
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\obj\Release\presentation_tracker_demo.Properties.Resources.resources
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\obj\Release\presentation_tracker_demo.csproj.GenerateResource.Cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\obj\Release\presentation_tracker_demo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\obj\Release\presentation_tracker_demo.pdb

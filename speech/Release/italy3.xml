@@ -1,0 +1,84 @@
+<topics>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >architectural achievements</text>
+<text thresh = "20" >architectural style</text>
+<text thresh = "10" >architecture</text>
+<text thresh = "20" >western architecture</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >city states</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >eighteen sixty one</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "10" >colosseum</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >the largest</text>
+<text thresh = "10" >the biggest</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >amphitheater</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >open air</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >entertainment</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >most popular</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >tourist attraction</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >gladiator</text>
+<text thresh = "10" >gladiatorial</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >public spectacles</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >famous battles</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >mythology</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >five cent</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >five cent</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >leaning tower</text>
+<text thresh = "20" >tower of pisa</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >bell tower</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >free standing</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >cathedral</text>
+<text thresh = "10" >church</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >foundation</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >tilt to one side</text>
+<text thresh = "20" >tilted to one side</text>
+<text thresh = "20" >tilt on one side</text>
+<text thresh = "20" >tilted on one side</text>
+</keyword>
+</topic>
+</topics>

@@ -1,0 +1,80 @@
+<topics>
+<topic>
+<keyword score = "10">
+<text thresh = "10" >the homeland</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >painters</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >sculptors</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >Michelangelo</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >Leonardo</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >da Vinci</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >Raphael</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >Mona Lisa</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >most famous</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "10">
+<text thresh = "10" >instrumental</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >classical music</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >innovation</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >musical scales</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >harmony</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >notation</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >theatre</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >sixteenth century</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >symphony</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >concerto</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "20">
+<text thresh = "10" >Luciano</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >Pavarotti</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >operatic tenor</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >popular music</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >commercially</text>
+</keyword>
+</topic>
+</topics>

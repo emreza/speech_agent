@@ -1,0 +1,5 @@
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\bin\Debug\keywordSpotterDemo.exe.config
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\bin\Debug\keywordSpotterDemo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\bin\Debug\keywordSpotterDemo.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\obj\Debug\keywordSpotterDemo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\obj\Debug\keywordSpotterDemo.pdb

@@ -1,0 +1,19 @@
+#JSGF V1.0;
+grammar options;
+public <option> = 
+applications of conversational agents require that|
+the agent keeps the user engaged in conversations|
+also in long term relations|
+storytelling is often a power instrument|
+adopted in such applications for maintaining such relation|
+the engagement with the user|
+storytelling is used for conveying|
+instrumental information about the task being performed|
+relating how another user met their exercise goals|
+and also as off tasks stories|
+such as social chat or small talk|
+narrative conversations are not a monologue|
+but are dialogues in which|
+users are the recipients of the story;
+
+

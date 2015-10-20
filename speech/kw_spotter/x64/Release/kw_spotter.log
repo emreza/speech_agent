@@ -1,0 +1,26 @@
+﻿Build started 10/19/2015 3:38:05 PM.
+     1>Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\kw_spotter\kw_spotter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32" /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include" /I"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KW_SPOTTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\kw_spotter.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt kw_spotter.cpp
+         kw_spotter.cpp
+     1>kw_spotter.cpp(23): warning C4101: 'fname' : unreferenced local variable
+     1>kw_spotter.cpp(83): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>kw_spotter.cpp(92): warning C4267: '=' : conversion from 'size_t' to 'int32', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Reza\Documents\GitHub\speech_agent\speech\x64\Release\kw_spotter.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\bin\Release" /LIBPATH:"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\bin\Release" pocketsphinx.lib sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Reza\Documents\GitHub\speech_agent\speech\x64\Release\kw_spotter.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Reza\Documents\GitHub\speech_agent\speech\x64\Release\kw_spotter.lib" /MACHINE:X64 /DLL x64\Release\dllmain.obj
+         x64\Release\kw_spotter.obj
+         x64\Release\stdafx.obj
+            Creating library C:\Users\Reza\Documents\GitHub\speech_agent\speech\x64\Release\kw_spotter.lib and object C:\Users\Reza\Documents\GitHub\speech_agent\speech\x64\Release\kw_spotter.exp
+         Generating code
+         Finished generating code
+         kw_spotter.vcxproj -> C:\Users\Reza\Documents\GitHub\speech_agent\speech\x64\Release\kw_spotter.dll
+       PostBuildEvent:
+         copy C:\Users\Reza\Documents\GitHub\speech_agent\speech\x64\Release\kw_spotter.dll C:\Users\Reza\Documents\GitHub\speech_agent\speech\presentation_tracker_demo\bin\Release
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\kw_spotter\kw_spotter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.29

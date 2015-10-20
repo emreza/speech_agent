@@ -1,0 +1,13 @@
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\bin\Release\speech_quality_demo.exe.config
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\bin\Release\speech_quality_demo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\bin\Release\speech_quality_demo.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\bin\Release\speech_quality.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\bin\Release\NAudio.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\bin\Release\speech_quality.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\bin\Release\NAudio.xml
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\obj\Release\speech_quality_demo.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\obj\Release\speech_quality_demo.Form1.resources
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\obj\Release\speech_quality_demo.Properties.Resources.resources
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\obj\Release\speech_quality_demo.csproj.GenerateResource.Cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\obj\Release\speech_quality_demo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality_demo\obj\Release\speech_quality_demo.pdb

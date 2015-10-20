@@ -1,0 +1,9 @@
+﻿Build started 10/13/2015 1:45:36 PM.
+     1>Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\pitch_tracker\pitch_tracker.vcxproj" on node 5 (Build target(s)).
+     1>Link:
+         pitch_tracker.vcxproj -> C:\Users\Reza\Documents\GitHub\speech_agent\speech\Debug\pitch_tracker.exe
+     1>Done Building Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\pitch_tracker\pitch_tracker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

@@ -53,12 +53,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SPEECH_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32;C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include;C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\pocketsphinx-5prealpha-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32;C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include;C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\bin\Release;C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\pocketsphinx-5prealpha-win32\bin\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\bin\Release;C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\bin\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -70,14 +70,14 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SPEECH_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32;C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include;C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\pocketsphinx-5prealpha-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include;C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32;C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\bin\Release;C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\pocketsphinx-5prealpha-win32\bin\Release</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\bin\Release;C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\bin\Release</AdditionalLibraryDirectories>
       <AdditionalDependencies>pocketsphinx.lib;sphinxbase.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>

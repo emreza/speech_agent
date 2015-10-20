@@ -1,0 +1,88 @@
+<topics>
+<topic>
+<keyword score = "20">
+<text thresh = "20" >south of europe</text>
+<text thresh = "20" >southern europe</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >boot shaped</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >peninsula</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >islands</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "10">
+<text thresh = "10" >official</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >language</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >italian</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >dialects</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >minority</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >french or german</text>
+<text thresh = "20" >german or french</text>
+<text thresh = "20" >french and german</text>
+<text thresh = "20" >german and french</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >traffic signs</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >documents</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "10">
+<text thresh = "10" >developed</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >quality of life</text>
+<text thresh = "20" >life quality</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >index</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >twenty fifth</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >two thousands and five</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >standard of living</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >public education</text>
+</keyword>
+</topic>
+<topic>
+<keyword score = "10">
+<text thresh = "10" >heritage</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "20" >forty seven</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "20" >cultural influence</text>
+<text thresh = "10" >influence</text>
+</keyword>
+<keyword score = "20">
+<text thresh = "10" >unesco</text>
+</keyword>
+<keyword score = "10">
+<text thresh = "10" >the world</text>
+</keyword>
+</topic>
+</topics>

@@ -1,0 +1,7 @@
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality\bin\Release\speech_quality.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality\bin\Release\speech_quality.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality\bin\Release\NAudio.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality\bin\Release\NAudio.xml
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality\obj\Release\speech_quality.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality\obj\Release\speech_quality.dll
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\speech_quality\obj\Release\speech_quality.pdb

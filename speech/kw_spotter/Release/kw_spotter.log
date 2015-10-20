@@ -1,0 +1,31 @@
+﻿Build started 10/18/2015 11:45:21 AM.
+     1>Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\kw_spotter\kw_spotter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32" /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include" /I"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KW_SPOTTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\kw_spotter.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32" /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include" /I"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KW_SPOTTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include\win32" /I"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\include" /I"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KW_SPOTTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\kw_spotter.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt kw_spotter.cpp
+         kw_spotter.cpp
+     1>kw_spotter.cpp(51): warning C4172: returning address of local variable or temporary
+     1>kw_spotter.cpp(61): warning C4172: returning address of local variable or temporary
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Reza\Documents\GitHub\speech_agent\speech\Release\kw_spotter.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Reza\Documents\sphinxbase-5prealpha-win32\bin\Release" /LIBPATH:"C:\Users\Reza\Documents\pocketsphinx-5prealpha-win32\bin\Release" pocketsphinx.lib sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Reza\Documents\GitHub\speech_agent\speech\Release\kw_spotter.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Reza\Documents\GitHub\speech_agent\speech\Release\kw_spotter.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\kw_spotter.obj
+         Release\stdafx.obj
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_start_utt
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_process_raw
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_get_in_speech
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_end_utt
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_get_hyp
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__cmd_ln_init
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_args
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_init
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__ps_free
+     1>kw_spotter.obj : error LNK2001: unresolved external symbol __imp__cmd_ln_free_r
+     1>C:\Users\Reza\Documents\GitHub\speech_agent\speech\Release\kw_spotter.dll : fatal error LNK1120: 10 unresolved externals
+     1>Done Building Project "C:\Users\Reza\Documents\GitHub\speech_agent\speech\kw_spotter\kw_spotter.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.74

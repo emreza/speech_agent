@@ -1,0 +1,6 @@
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\bin\Release\keywordSpotterDemo.exe.config
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\bin\Release\keywordSpotterDemo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\bin\Release\keywordSpotterDemo.pdb
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\obj\Release\keywordSpotterDemo.csprojResolveAssemblyReference.cache
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\obj\Release\keywordSpotterDemo.exe
+C:\Users\Reza\Documents\GitHub\speech_agent\speech\keywordSpotterDemo\obj\Release\keywordSpotterDemo.pdb
